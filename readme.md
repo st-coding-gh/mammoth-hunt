@@ -1,6 +1,6 @@
 # MAMMOTH-HUNT
  
- :elephant:
+ :elephant: :hocho:
  
  a portfolio project which main idea is to try mobile first approach
  
