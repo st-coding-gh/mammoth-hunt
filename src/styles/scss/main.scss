@@ -9,6 +9,8 @@
 @use './blocks/header';
 @use './blocks/hero';
 @use './blocks/features';
+@use './blocks/team';
+@use './blocks/footer';
 
 //components
 @use './components/container';
@@ -16,8 +18,5 @@
 @use './components/button';
 @use './components/hidden';
 @use './components/burger';
+@use './components/sectionHeading';
 
-//TEMP
-body {
-  background-color: gray;
-}

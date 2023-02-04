@@ -1,0 +1,39 @@
+@use '../variables/variables' as *;
+
+.team {
+
+  background-color: $color-brown;
+
+  &-photo {
+    border-radius: 50%;
+    // object-fit: cover;
+    overflow: hidden;
+    width: 40vw;
+    height: 40vw;
+    background-color: greenyellow;
+  }
+
+  &-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &-article {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+  }
+
+  &-textContainer {
+    width: 60vw;
+  }
+
+  &-textContainer h3 {
+    font-size: 2em;
+    padding: 0.5em;
+  }
+
+}
