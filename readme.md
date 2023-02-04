@@ -11,10 +11,10 @@
 ## Project plan
 
   **PROJECT STRUCTURE and DEPLOY**
-  - [x] dev folder
-  - [x] git init
-  - [x] .gitignore
-  - [x] readme
+  * [x] dev folder
+  * [x] git init
+  + [x] .gitignore
+  + [x] readme
   - [x] nmp init
   - [x] git hub actions
   - [x] deploy test
