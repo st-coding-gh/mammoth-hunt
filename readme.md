@@ -11,10 +11,10 @@
 ## Project plan
 
   **PROJECT STRUCTURE and DEPLOY**
-  * [x] dev folder
-  * [x] git init
-  + [x] .gitignore
-  + [x] readme
+  - [x] dev folder
+  - [x] git init
+  - [x] .gitignore
+  - [x] readme
   - [x] nmp init
   - [x] git hub actions
   - [x] deploy test
@@ -26,17 +26,15 @@
 
   **HTML**
   - [x] semantics
-  - [x] validation: 
-    - [x] https://validator.w3.org/
+  - [x] https://validator.w3.org/
     <!-- - https://whatwg.org/validator/ -->
     
-  **FONTS**
+  **CSS**
+  - [ ] scss
+  - [ ] normilize.css (margin, padding, border, text-decoration, list style) https://www.youtube.com/watch?v=sohdv21BVNI&t=65s&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E
   - [ ] fonts https://webfonts.pro/ 
   - [ ] font conversion https://onlinefontconverter.com/
   - [ ] fonts in CSS
-  
-  **CSS**
-  - [ ] normilize.css (margin, padding, border, text-decoration, list style) https://www.youtube.com/watch?v=sohdv21BVNI&t=65s&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E
   - [ ] box-sizing: border-box
   - [ ] BEM naming
   <!-- - [ ] pixel perfect -->
