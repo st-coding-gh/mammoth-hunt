@@ -1,0 +1,18 @@
+@use '../variables/variables' as *;
+
+.hero {
+  min-height: 100vh;
+  background-image: linear-gradient($color-brown-opacity 50%, $color-brown),
+                    url('../images/hero-bg-mammoth.png');
+  background-size: cover;
+  background-position: center;
+
+  &-contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 1em;
+  }
+
+}

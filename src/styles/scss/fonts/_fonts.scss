@@ -1,0 +1,46 @@
+// variables
+@use '../variables/variables' as *;
+
+//FONTS
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'StalinistOne';
+  src: url('../fonts/StalinistOne-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+* {
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+.font-inter--regular {
+  font-weight: 400;
+}
+
+.font-stalinist {
+  font-family: 'StalinistOne';
+  font-weight: 400;
+}
+
+.font-color {
+  &--white      {color: $color-white};
+  &--gray       {color: $color-gray};
+  &--gray-dark  {color: $color-gray-dark};
+  &--brown      {color: $color-brown};
+  &--brown-dark {color: $color-brown-dark};
+  &--dark       {color: $color-dark};
+  &--red        {color: $color-red};
+}

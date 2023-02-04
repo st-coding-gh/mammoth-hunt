@@ -1,0 +1,13 @@
+.header {
+
+  position: absolute;
+  width: 100%;
+
+  &-padding {
+    padding: 0 1em;
+  }
+
+  &-navItem {
+    list-style: none;
+  }
+}

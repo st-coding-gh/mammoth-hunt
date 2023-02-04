@@ -2,7 +2,7 @@
 
   :elephant: :hocho:<br>
   A portfolio project which main idea is to try mobile first approach<br>
-  The design of the site is made with Midjourney and ChatGPT<br>
+  The design of the site was made with Midjourney and ChatGPT in Fingma<br>
 
 ## Project description
   The main idea is to try mobile first approach and make a responsive site. The project untilizes html, css, scss<br>
@@ -30,14 +30,17 @@
     <!-- - https://whatwg.org/validator/ -->
     
   **CSS**
-  - [ ] scss
-  - [ ] normilize.css (margin, padding, border, text-decoration, list style) https://www.youtube.com/watch?v=sohdv21BVNI&t=65s&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E
-  - [ ] fonts https://webfonts.pro/ 
-  - [ ] font conversion https://onlinefontconverter.com/
-  - [ ] fonts in CSS
-  - [ ] box-sizing: border-box
-  - [ ] BEM naming
+  - [x] scss
+  - [x] normalize.css
+  - [x] fonts https://webfonts.pro/ 
+  - [x] font conversion https://onlinefontconverter.com/
+  - [x] fonts in CSS
+  - [x] box-sizing: border-box
+  - [x] BEM naming: blockName-elementName--modName
   <!-- - [ ] pixel perfect -->
+  - [ ] mobile CSS
+  - [ ] intermediate breakpoints CSS
+  - [ ] desktop CSS
   - [ ] validation: https://jigsaw.w3.org/css-validator/
   
   **CHECK-LISTS**

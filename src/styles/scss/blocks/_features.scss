@@ -1,0 +1,9 @@
+@use '../variables/variables' as *;
+
+.features {
+  &-icon {
+    display: block;
+    width: 100%;
+    fill: $color-brown;
+  }
+}

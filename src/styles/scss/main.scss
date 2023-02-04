@@ -1,8 +1,23 @@
+//normalize
+@use '../../../node_modules/normalize.css/normalize.css';
+@use './normalize/normalize-custom';
+
+//fonts
+@use './fonts/fonts';
+
+//major blocks
+@use './blocks/header';
+@use './blocks/hero';
+@use './blocks/features';
+
+//components
+@use './components/container';
+@use './components/logo';
+@use './components/button';
+@use './components/hidden';
+@use './components/burger';
+
+//TEMP
 body {
-  background-color:teal;
+  background-color: gray;
 }
-
-img {
-  width: 50%;
-}
-

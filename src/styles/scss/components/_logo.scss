@@ -1,0 +1,10 @@
+@use '../variables/variables' as *;
+
+.logo {
+ transform: rotate(45deg);
+ height: 5em;
+ width: 5em;
+
+ fill: $color-brown;
+
+}
