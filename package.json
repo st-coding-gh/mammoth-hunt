@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "npx http-server -c-1 -p 5500"
+    "server": "npx http-server -c-1 -p 5500",
+    "sass-watch": "npx sass ./src/styles/scss/main.scss ./src/styles/main.css -w"
   },
   "repository": {
     "type": "git",
