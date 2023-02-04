@@ -20,7 +20,7 @@ jobs:
       run : npm install
       
     - name: remove
-      run : rm -R .git .github readme.md node_modules package.json package-lock.json .gitignore
+      run : rm -R .git .github readme.md node_modules package.json package-lock.json .gitignore ./src/styles/scss
       
     - name: list folders
       run : ls -la
