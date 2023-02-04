@@ -1,0 +1,25 @@
+{
+  "name": "project-6-hunt",
+  "version": "1.0.0",
+  "description": "portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st-coding-gh/mammoth-hunt.git"
+  },
+  "keywords": [
+    "mammoth"
+  ],
+  "author": "Sergey Tikhonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st-coding-gh/mammoth-hunt/issues"
+  },
+  "homepage": "https://github.com/st-coding-gh/mammoth-hunt#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
