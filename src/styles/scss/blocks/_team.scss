@@ -7,7 +7,11 @@
   &-article {
     display: flex;
     flex-direction: row-reverse;
+      &:nth-child(even) {
+        flex-direction: row;
+      }
     align-items: center;
+    justify-content: center;
     gap: 1em;
     margin: 1em 0;
   }
@@ -28,12 +32,16 @@
   }
 
   &-textContainer {
-    width: 60vw;
+    width: 40vw;
   }
 
   &-textContainer h3 {
     font-size: 2em;
     padding-bottom: 0.5em;
+  }
+
+  &-textContainer p {
+    width: 25ch;
   }
 
 }

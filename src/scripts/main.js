@@ -3,10 +3,13 @@
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.header-nav');
 const navLink = document.querySelectorAll('.header-navItem');
+const submit = document.querySelector('#form-button');
+const input = document.querySelector('#input');
 
 // actions
 
 burgerAction();
+submitAction();
 
 // functions declaration
 
@@ -19,4 +22,10 @@ function burgerAction () {
       nav.classList.toggle('hidden');
     });
   }
+}
+
+function submitAction () {
+  submit.addEventListener('click', () => {
+    input.value = "thank you for submitting the form";
+  });
 }
