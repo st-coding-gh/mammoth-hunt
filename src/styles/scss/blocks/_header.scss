@@ -1,3 +1,5 @@
+@use '../variables/variables' as *;
+
 .header {
 
   position: absolute;
@@ -10,4 +12,26 @@
   &-navItem {
     list-style: none;
   }
+
+  &-nav {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    bottom: -90vh;
+    right: 0;
+    left: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-white;
+    opacity: 0.9;
+  }
+
+  &-nav ul li {
+    padding-bottom: 1em;
+    font-size: 3em;
+  }
+
 }

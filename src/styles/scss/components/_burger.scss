@@ -1,8 +1,12 @@
 @use '../variables/variables' as *;
 
 .burger {
+
+  all: unset;
+  z-index: 10;
+
   &-line {
-    display: block;
+    display: block;  
     width: 3em;
     margin-bottom: 0.5em;
     border: 1px solid $color-brown;
