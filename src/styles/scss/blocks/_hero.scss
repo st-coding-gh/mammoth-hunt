@@ -5,7 +5,7 @@
   background-image: linear-gradient($color-brown-opacity 50%, $color-brown),
                     url('../images/hero-bg-mammoth.png');
   background-size: cover;
-  background-position: center;
+  background-position: top;
 
   &-contentContainer {
     display: flex;
