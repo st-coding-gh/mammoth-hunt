@@ -11,7 +11,7 @@
         flex-direction: row;
       }
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1em;
     margin: 1em 0;
   }
@@ -32,16 +32,12 @@
   }
 
   &-textContainer {
-    width: 40vw;
+    width: 20ch;
   }
 
   &-textContainer h3 {
     font-size: 2em;
     padding-bottom: 0.5em;
-  }
-
-  &-textContainer p {
-    width: 25ch;
   }
 
 }
