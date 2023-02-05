@@ -18,10 +18,21 @@
   }
 
   &-itemText {
-    width: 40ch;
+    font-size: 1.2rem;
+    max-width: 40ch;
   }
   
   &-iconContainer {
     width: 5em;
+  }
+}
+
+@media (min-width: $tablet-max) {
+
+  .features-item {
+    grid-column: span 4;
+    flex-direction: column;
+    justify-content: initial;
+
   }
 }

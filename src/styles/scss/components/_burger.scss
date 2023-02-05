@@ -12,3 +12,11 @@
     border: 1px solid $color-brown;
   }
 }
+
+@media (min-width: $tablet-min) {
+
+  .burger {
+    display: none;
+  }
+
+}

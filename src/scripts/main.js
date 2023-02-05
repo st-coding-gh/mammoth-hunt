@@ -15,11 +15,11 @@ submitAction();
 
 function burgerAction () {
   burger.addEventListener('click', (event) => {
-    nav.classList.toggle('hidden');
+    nav.classList.toggle('hidden--toggle');
   });
   for (each of navLink) {
     each.addEventListener('click', (event) => {
-      nav.classList.toggle('hidden');
+      nav.classList.toggle('hidden--toggle');
     });
   }
 }

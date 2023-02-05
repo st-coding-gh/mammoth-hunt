@@ -1,3 +1,17 @@
-.hidden {
+@use '../variables/variables' as *;
+
+.hidden--toggle {
   display: none;
 }
+
+.hidden--static {
+  display: none;
+}
+
+@media (min-width: $tablet-min) {
+
+  .hidden--static {
+    display: initial;
+  }
+}
+

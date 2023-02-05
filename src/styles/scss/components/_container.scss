@@ -1,4 +1,7 @@
+@use '../variables/variables' as *;
+
 .container {
+  height: 100%;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 2em;
@@ -14,6 +17,29 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+  }
+
+}
+
+@media (min-width: $tablet-max) {
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2em;
+  }
+
+  .container-flex--row {
+    grid-column: 1/13;
+  }
+
+}
+
+@media (min-width: $desktop-min) {
+
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
   }
 
 }

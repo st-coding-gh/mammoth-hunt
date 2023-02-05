@@ -11,6 +11,8 @@
 
   &-navItem {
     list-style: none;
+    font-size: 1.3vw;
+    text-transform: uppercase;
   }
 
   &-nav {
@@ -32,6 +34,17 @@
   &-nav ul li {
     padding-bottom: 1em;
     font-size: 3em;
+  }
+
+  &-nav--static ul {
+    display: flex;
+    gap: 2em;
+  }
+
+  &-navItem--static {
+    list-style: none;
+    font-size: 1.3vw;
+    text-transform: uppercase;
   }
 
 }

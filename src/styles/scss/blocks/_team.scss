@@ -35,9 +35,44 @@
     width: 20ch;
   }
 
+  &-textContainer p {
+    font-size: 1.2rem;
+  }
+
   &-textContainer h3 {
     font-size: 2em;
     padding-bottom: 0.5em;
+  }
+
+}
+
+@media (min-width: $tablet-max) {
+
+  .team-article {
+    grid-column: span 3;
+    flex-direction: column;
+    justify-content: initial;
+      &:nth-child(even) {
+        flex-direction: column;
+      }
+  }
+
+  .team-photo {
+    width: 20vw;
+    height: 20vw;
+  }
+
+}
+
+@media (min-width: $desktop-min) {
+
+  .team {
+
+    &-photo {
+      max-width: 270px;
+      max-height: 270px;
+    }
+
   }
 
 }

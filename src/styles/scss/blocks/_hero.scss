@@ -1,7 +1,7 @@
 @use '../variables/variables' as *;
 
 .hero {
-  min-height: 100vh;
+  height: 100vh;
   background-image: linear-gradient($color-brown-opacity 50%, $color-brown),
                     url('../images/hero-bg-mammoth.png');
   background-size: cover;
@@ -12,6 +12,23 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
+    & p {
+      font-size: 1.3rem;
+      max-width: 50ch;
+      text-align: center;
+    }
+    & h1 {
+      text-align: center;
+    }
+  }
+
+}
+
+@media (min-width: $tablet-max) {
+
+  .hero-contentContainer {
+    grid-column: 1/13;
+    justify-content: flex-end;
   }
 
 }
