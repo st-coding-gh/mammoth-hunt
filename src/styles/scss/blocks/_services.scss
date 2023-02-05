@@ -1,0 +1,35 @@
+@use '../variables/variables' as *;
+
+.services {
+
+  background-image: linear-gradient(rgb(255 255 255 / 70%), rgb(255 255 255 / 70%)), url(../images/caveman-bg.png);
+  background-size: 10vw;
+  
+
+  &-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 1em;
+  }
+
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-brown-dark;
+    border-radius: 1em;
+    padding: 4em 1em;
+    width: 40vw;
+    min-height: 50vw;
+  }
+
+  &-text {
+    font-size: 4vw;
+    text-align: center;
+    width: 10ch;
+    margin: 0 auto;
+  }
+
+}
