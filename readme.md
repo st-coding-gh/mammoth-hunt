@@ -2,7 +2,7 @@
 
   :elephant: :hocho:<br>
   A portfolio project which main idea is to try mobile first approach<br>
-  The design of the site was made with Midjourney and ChatGPT in Fingma<br>
+  The design of the site was made with Midjourney and ChatGPT in Figma<br>
 
 ## Project description
   The main idea is to try mobile first approach and make a responsive site. The project untilizes html, css, scss<br>
