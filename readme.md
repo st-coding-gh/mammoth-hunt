@@ -5,8 +5,8 @@
   The design of the site was made with Midjourney and ChatGPT in Figma<br>
 
 ## Project description
-  The main idea is to try mobile first approach and make a responsive site. The project untilizes html, css, scss<br>
-  Variables are to be used in css and scss to define colors and other repeated values
+  The main idea is to try mobile first approach and make a responsive site. The project untilizes html, css, scss, basic js, bem naming<br>
+  Variables are used in scss to define colors and breackpoints
 
 ## Project plan
 
