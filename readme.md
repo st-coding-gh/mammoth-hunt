@@ -38,17 +38,16 @@
   - [x] box-sizing: border-box
   - [x] BEM naming: blockName-elementName--modName
   <!-- - [ ] pixel perfect -->
-  - [ ] mobile CSS
-  - [ ] intermediate breakpoints CSS
-  - [ ] desktop CSS
-  - [ ] validation: https://jigsaw.w3.org/css-validator/
+  - [x] mobile CSS
+  - [x] intermediate breakpoints CSS
+  - [x] desktop CSS
+  - [x] validation: https://jigsaw.w3.org/css-validator/
   
   **CHECK-LISTS**
-  - [ ] http://recommend.maxgraph.ru/
-  - [ ] https://vc.ru/dev/199130-kak-my-testiruem-frontend-html-verstku-chek-list
+  - [x] http://recommend.maxgraph.ru/
 
   **VALIDATION**
-  - [ ] validation: 
+  - [x] validation: 
     - https://validator.w3.org/
     - https://whatwg.org/validator/
-  - [ ] validation: https://jigsaw.w3.org/css-validator/
+  - [x] validation: https://jigsaw.w3.org/css-validator/

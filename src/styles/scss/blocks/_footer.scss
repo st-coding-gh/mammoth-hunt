@@ -2,7 +2,7 @@
 
 .footer {
   background-color: $color-dark;
-  padding-top: 1em;
+  padding-top: 4em;
   font-size: 1.5em;
 
   &-contactItem {
@@ -42,4 +42,30 @@
     padding-left: 0.5em;
   }
 
+}
+
+@media (min-width: $tablet-max) {
+
+  .footer {
+
+    &-item {
+      grid-column: span 4;
+    }
+
+    &-form {
+      padding-top: 0;
+    }
+
+    &-contactItem {
+      padding-bottom: 3em;
+    }
+
+    &-iconsContainer {
+      padding-top: 3.5em;
+    }
+
+    &-form input {
+      height: 7.5em;
+    }
+  }
 }

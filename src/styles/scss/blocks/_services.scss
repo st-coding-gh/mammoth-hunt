@@ -2,7 +2,7 @@
 
 .services {
 
-  background-image: linear-gradient(rgb(255 255 255 / 70%), rgb(255 255 255 / 70%)), url(../images/caveman-bg.png);
+  background-image: linear-gradient(rgb(255 255 255 / 90%), rgb(255 255 255 / 90%)), url(../images/caveman-bg.png);
   background-size: 10vw;
   
 
@@ -63,6 +63,8 @@
 
   .services {
 
+    background-size: 5vw;
+
     &-text {
       font-size: 2.9rem;
     }  
@@ -70,3 +72,4 @@
   }
 
 }
+

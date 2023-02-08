@@ -12,14 +12,20 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    & p {
-      font-size: 1.3rem;
-      max-width: 50ch;
-      text-align: center;
-    }
-    & h1 {
-      text-align: center;
-    }
+
+  }
+
+  &-heading {
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+
+  &-text {
+    font-size: 1.3rem;
+    max-width: 50ch;
+    text-align: center;
+    text-transform: uppercase;
   }
 
 }
@@ -30,5 +36,17 @@
     grid-column: 1/13;
     justify-content: flex-end;
   }
+}
 
+@media (min-width: $desktop-min) {
+
+  .hero {
+    &-heading {
+      font-size: 2.9rem;
+    }
+    &-text {
+      font-size: 2rem;
+    }
+
+  }
 }

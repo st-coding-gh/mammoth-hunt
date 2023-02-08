@@ -5,4 +5,15 @@
   background-color: $color-red;
   padding: 1em;
   border-radius: 0.6em;
+  cursor: pointer;
+}
+
+@media (min-width: $desktop-min) {
+
+  .button {
+    text-transform: uppercase;
+    padding: 0.5em;
+    font-size: 2.8rem;
+  }
+
 }
